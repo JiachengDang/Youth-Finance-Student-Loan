@@ -1,0 +1,66 @@
+.Button {
+    font-size: 1.5625rem;
+    line-height: 2.34375rem;
+    letter-spacing: .04em;
+    background: #313d4c;
+    padding: 10px 15px;
+    box-shadow: #01b6ad 5px 5px 0;
+    display: inline-block;
+    
+    position: relative;
+    transition-property: color;
+    transition-duration: .3s;
+    margin: 10%;
+}
+.Button, .opt {
+    cursor: pointer;
+}
+.Button:active, .Button:focus, .Button:hover {
+    transition-timing-function: ease-out;
+    transform: scale(0);
+    background: #01b6ad;
+    box-shadow: #313d4c 5px 5px 0;
+    transition-property: transform;
+    transition-duration: .3s;
+}
+.Button, .options-hidden {
+    text-transform: uppercase;
+    vertical-align: middle;
+}
+.bck-0 .options, .Button:before {
+    -webkit-transition-duration: .3s;
+}
+.bck-0 .options:before, .Button:before {
+    content: "";
+    bottom: 0;
+    -webkit-transition-timing-function: ease-out;
+}
+
+.Button:before {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #01b6ad;
+    box-shadow: #313d4c 5px 5px 0;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    transition-duration: .3s;
+    transition-timing-function: ease-out;
+}
+
+.Button:first-of-type {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.Success {
+    color: #5C9210;
+}
+
+.Danger {
+    color: #944317;
+}

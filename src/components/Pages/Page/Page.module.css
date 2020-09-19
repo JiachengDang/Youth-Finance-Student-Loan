@@ -1,0 +1,114 @@
+.Page {
+	position: relative;
+	height: 400px;
+	width: 700px;
+	padding: 0% 0%;
+	line-height: 400px;
+	margin: auto;
+	margin-top: 30px;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	-webkit-background-size: cover;
+	background-size: cover;
+	box-shadow: 0 4px 8px 0 rgba(7, 17, 27, 0.5);
+	border-radius: 30px;
+}
+.titleButton{
+    margin-top:45% ;
+    margin-left:75% ;
+    border: 0ch;
+    width: 80px;
+    height: 60px;
+    background: url('../../../assets/titlebutton.png');
+	background-size: cover;
+	background-position: center;
+}
+
+.titlePage {
+    
+    background-image: url('../../../assets/titlepage.png');
+	background-position: center top;
+    background-size: 100% 400px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	overflow: hidden;
+	border-radius: 9px;
+	padding: 6%;
+	padding-top: 6%;
+	height: 100%;
+
+    
+    
+    
+   
+}
+.rascal {
+	position: relative;
+	
+	padding: 6%;
+	padding-top: 6%;
+	height: 100%;
+	margin-top: 30px;
+	overflow: hidden;
+	background-image: url('../../../assets/bg/BG-Y.jpg');
+	background-position: center top;
+	background-size: cover;
+	
+	z-index: 1;
+	border-radius: 9px;
+}
+/* .rascal::after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(255, 255, 255, 0.8);
+	z-index: -1;
+	background-image: url('../../../assets/bg.jpg');
+	background-position: center top;
+	background-size: cover;
+	background-attachment: fixed;
+	-webkit-filter: blur(20px);
+	-moz-filter: blur(20px);
+	-ms-filter: blur(20px);
+	-o-filter: blur(20px);
+	filter: blur(20px);
+	margin: -30px;
+} */
+.Button1 {
+	margin-top: 30%;
+	width: 200px;
+}
+
+.Form {
+	width: 60%;
+	margin: auto;
+	margin-top: 20%;
+}
+
+.mb2 {
+    margin: 0;
+	height: auto;
+	width: 100%;
+    vertical-align: middle;
+    margin-bottom: 25%;
+	
+}
+.mb3 {
+    position: absolute;
+    bottom:50%
+    
+}
+
+.mb4{
+    position: absolute;
+    left:42.5%;
+    bottom:50%
+}
+
+span {
+    display: table-cell;
+    vertical-align: middle;
+  }
