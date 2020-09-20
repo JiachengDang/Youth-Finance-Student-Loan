@@ -1,66 +1,109 @@
-.Button {
-    font-size: 1.5625rem;
-    line-height: 2.34375rem;
-    letter-spacing: .04em;
-    background: #313d4c;
-    padding: 10px 15px;
-    box-shadow: #01b6ad 5px 5px 0;
-    display: inline-block;
-    
-    position: relative;
-    transition-property: color;
-    transition-duration: .3s;
-    margin: 10%;
-}
-.Button, .opt {
-    cursor: pointer;
-}
-.Button:active, .Button:focus, .Button:hover {
-    transition-timing-function: ease-out;
-    transform: scale(0);
-    background: #01b6ad;
-    box-shadow: #313d4c 5px 5px 0;
-    transition-property: transform;
-    transition-duration: .3s;
-}
-.Button, .options-hidden {
-    text-transform: uppercase;
-    vertical-align: middle;
-}
-.bck-0 .options, .Button:before {
-    -webkit-transition-duration: .3s;
-}
-.bck-0 .options:before, .Button:before {
-    content: "";
-    bottom: 0;
-    -webkit-transition-timing-function: ease-out;
+
+
+.Button,
+.options-hidden {
+	text-transform: uppercase;
+	vertical-align: middle;
 }
 
-.Button:before {
+
+
+
+
+
+
+/* Back Pulse */
+@-webkit-keyframes hvrBackPulse {
+    50% {
+      background-color: #62BFAD;
+    }
+  }
+  @keyframes hvrBackPulse {
+    50% {
+      background-color:  #62BFAD;
+    }
+  }
+  .hvrBackPulse {
+    font-size: 1.5625rem;
+	line-height: 2.34375rem;
+	letter-spacing: 0.04em;
+	background: #313d4c;
+	padding: 10px 15px;
+	
+	border: 0ch;
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: #62BFAD 5px 5px 0;
+    overflow: hidden;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    -webkit-transition-property: color, background-color;
+    transition-property: color, background-color;
+    color:#F9F7E8;
+  }
+  .hvrBackPulse:hover, .hvrBackPulse:focus, .hvrBackPulse:active {
+    -webkit-animation-name: hvrBackPulse;
+    animation-name: hvrBackPulse;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-delay: 0.5s;
+    animation-delay: 0.5s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    background-color:  #01b6ad;
+    background-color: #01b6ad;
+    box-shadow: #313d4c 5px 5px 0;
+    
+  }
+
+  .Button {
+    margin: 5%;
+    font-size: 1.5625rem;
+	line-height: 2.34375rem;
+	letter-spacing: 0.04em;
+	background: #313d4c;
+	padding: 10px 15px;
+	
+	border: 0ch;
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: #62BFAD 5px 5px 0;
+    position: relative;
+    -webkit-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    color:#F9F7E8;
+  }
+  .Button:before {
+    content: "";
     position: absolute;
     z-index: -1;
     top: 0;
     left: 0;
     right: 0;
-    background: #01b6ad;
+    bottom: 0;
+    background-color:  #62BFAD;
     box-shadow: #313d4c 5px 5px 0;
     -webkit-transform: scale(0);
     transform: scale(0);
     -webkit-transition-property: transform;
     transition-property: transform;
-    transition-duration: .3s;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
     transition-timing-function: ease-out;
-}
-
-.Button:first-of-type {
-    margin-left: 0;
-    padding-left: 0;
-}
-
-.Success {
-    color: #5C9210;
-}
-
-.Danger {
-    color: #944317;
-}
+  }
+  .Button:hover, .Button:focus, .Button:active {
+    color:#F9F7E8;
+  }
+  .Button:hover:before, .Button:focus:before, .Button:active:before {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
