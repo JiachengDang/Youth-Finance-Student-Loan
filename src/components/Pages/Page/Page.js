@@ -392,9 +392,8 @@ class Page extends Component {
 												</h4>
 												</Fade>
 												<ButtonGroup
-													style={{
-														marginBottom: '40%',
-													}}
+												className={classes.mb2}
+											
 												>
 													<Button1
 														clicked={() =>
@@ -449,9 +448,7 @@ class Page extends Component {
 													What do you choose to do?
 												</h3>
 												<ButtonGroup
-													style={{
-														marginBottom: '40%',
-													}}
+													className={classes.mb2}
 												>
 													<Button1
 														clicked={() =>
@@ -571,9 +568,7 @@ class Page extends Component {
 												</h3>
 												</Fade>
 												<ButtonGroup
-													style={{
-														marginBottom: '40%',
-													}}
+													className={classes.mb2}
 												>
 													<Button1
 														clicked={() =>
@@ -618,9 +613,7 @@ class Page extends Component {
 												</h1>
 												<Fade bottom>
 												<Button1
-													style={{
-														marginBottom: '40%',
-													}}
+													
 													clicked={() =>
 														this.changePageHandler(
 															15
@@ -651,9 +644,7 @@ class Page extends Component {
 												</h1>
 												<Fade bottom>
 												<Button1
-													style={{
-														marginBottom: '40%',
-													}}
+													
 													clicked={() =>
 														this.changePageHandler(
 															15

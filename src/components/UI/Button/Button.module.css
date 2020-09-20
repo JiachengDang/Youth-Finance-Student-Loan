@@ -61,9 +61,11 @@
   }
 
   .Button {
-    margin: auto;
+    display: inline-block ;
+    margin-left: 3%;
+    margin-right: 3%;
     margin-top: 5%;
-    padding: 1.5%;
+    padding: 15px;
     font-size: 1.5625rem;
 	line-height: 2.34375rem;
 	letter-spacing: 0.04em;

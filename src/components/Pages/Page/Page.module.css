@@ -1,56 +1,31 @@
 .Page {
 	position: relative;
-	min-height: 960px;
+
 	/* background-image: url('../../../assets/bg/bg2.png'); */
 	background-color: #f9f7e8;
-
+	min-height: 100vh;
+	max-height: 100vh;
 	margin: 0%;
 }
-/* .titleButton {
-	margin-top: 45%;
-	margin-left: 75%;
-	border: 0ch;
-	width: 80px;
-	height: 60px;
-	background: url('../../../assets/titlebutton.png');
-	background-size: cover;
-	background-position: center;
-}
 
-.titlePage {
-	background: url('../../../assets/titlepage.png') no-repeat center center fixed;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-	border-radius: 9px;
-
-	height: 100%;
-} */
 .rascal {
 	position: relative;
-	min-height: 100%;
 	padding: 6%;
 	padding-top: 6%;
-
+	min-height: 100vh;
+	max-height: 100vh;
 	overflow: hidden;
 
 	z-index: 1;
 }
 
-.Button1 {
-	margin-top: 30%;
-	margin: auto;
-	width: 200px;
-}
 
 .mb2 {
-	align-items: center;
-	margin: auto;
-	height: auto;
+	
 	width: 100%;
-	vertical-align: middle;
-	margin-bottom: 25%;
+	display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 h1 {
