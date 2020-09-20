@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Youth-Finance-Student-Loan/static/css/main.465b19ca.chunk.css",
+    "main.css": "/Youth-Finance-Student-Loan/static/css/main.4fa76c20.chunk.css",
     "main.js": "/Youth-Finance-Student-Loan/static/js/main.e834d5c7.chunk.js",
     "main.js.map": "/Youth-Finance-Student-Loan/static/js/main.e834d5c7.chunk.js.map",
     "runtime-main.js": "/Youth-Finance-Student-Loan/static/js/runtime-main.49fd5d4e.js",
@@ -9,10 +9,10 @@
     "static/js/2.518f2a71.chunk.js": "/Youth-Finance-Student-Loan/static/js/2.518f2a71.chunk.js",
     "static/js/2.518f2a71.chunk.js.map": "/Youth-Finance-Student-Loan/static/js/2.518f2a71.chunk.js.map",
     "index.html": "/Youth-Finance-Student-Loan/index.html",
-    "precache-manifest.84120fd61a010ac0ed756e94346f30a4.js": "/Youth-Finance-Student-Loan/precache-manifest.84120fd61a010ac0ed756e94346f30a4.js",
+    "precache-manifest.5783753dba8680510d5abc2d01b69769.js": "/Youth-Finance-Student-Loan/precache-manifest.5783753dba8680510d5abc2d01b69769.js",
     "service-worker.js": "/Youth-Finance-Student-Loan/service-worker.js",
     "static/css/2.11829350.chunk.css.map": "/Youth-Finance-Student-Loan/static/css/2.11829350.chunk.css.map",
-    "static/css/main.465b19ca.chunk.css.map": "/Youth-Finance-Student-Loan/static/css/main.465b19ca.chunk.css.map",
+    "static/css/main.4fa76c20.chunk.css.map": "/Youth-Finance-Student-Loan/static/css/main.4fa76c20.chunk.css.map",
     "static/js/2.518f2a71.chunk.js.LICENSE.txt": "/Youth-Finance-Student-Loan/static/js/2.518f2a71.chunk.js.LICENSE.txt",
     "static/media/logo.svg": "/Youth-Finance-Student-Loan/static/media/logo.5d5d9eef.svg"
   },
@@ -20,7 +20,7 @@
     "static/js/runtime-main.49fd5d4e.js",
     "static/css/2.11829350.chunk.css",
     "static/js/2.518f2a71.chunk.js",
-    "static/css/main.465b19ca.chunk.css",
+    "static/css/main.4fa76c20.chunk.css",
     "static/js/main.e834d5c7.chunk.js"
   ]
 }

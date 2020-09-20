@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Youth-Finance-Student-Loan/precache-manifest.84120fd61a010ac0ed756e94346f30a4.js"
+  "/Youth-Finance-Student-Loan/precache-manifest.5783753dba8680510d5abc2d01b69769.js"
 );
 
 self.addEventListener('message', (event) => {
