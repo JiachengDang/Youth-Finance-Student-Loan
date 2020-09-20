@@ -7,7 +7,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" style={{backgroundColor:' #f9f7e8'}}>
       <Layout/>
     </div>
   );

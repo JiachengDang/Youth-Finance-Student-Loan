@@ -89,27 +89,30 @@ class Page extends Component {
 		return (
 			<Aux>
 				<div className={classes.Page}>
-					{this.state.ID == 0 ? (
+					{/* {this.state.ID == 0 ? (
 						<div className={classes.titlePage}>
 							<button
 								className={classes.titleButton}
 								onClick={this.changePageHandler}
 							></button>
 						</div>
-					) : (
+					) : ( */}
 						<div className={classes.rascal}>
 							{
 								{
 									//start page
 									0: (
+										<Aux>
+										<h1>Map My College</h1>
 										<Button1
 											className={classes.Button1}
 											size="lg"
 											variant="light"
-											onClick={this.changePageHandler}
+											clicked={this.changePageHandler}
 										>
 											<b>Start</b>
 										</Button1>
+										</Aux>
 									),
 									//How much is your tuition?
 									1: (
@@ -698,7 +701,7 @@ class Page extends Component {
 								}[this.state.ID]
 							}
 						</div>
-					)}
+					{/* )} */}
 				</div>
 				{this.state.ID > 7 && this.state.ID != 15 ? (
 					<Fade bottom>
