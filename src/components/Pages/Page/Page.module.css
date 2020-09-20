@@ -1,6 +1,6 @@
 .Page {
 	position: relative;
-	min-height: 100%;
+	min-height: 960px;
 	/* background-image: url('../../../assets/bg/bg2.png'); */
 	background-color: #f9f7e8;
 
@@ -40,11 +40,13 @@
 
 .Button1 {
 	margin-top: 30%;
+	margin: auto;
 	width: 200px;
 }
 
 .mb2 {
-	margin: 0;
+	align-items: center;
+	margin: auto;
 	height: auto;
 	width: 100%;
 	vertical-align: middle;
