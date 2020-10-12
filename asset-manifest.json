@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/Youth-Finance-Student-Loan/static/css/main.027bd7f9.chunk.css",
-    "main.js": "/Youth-Finance-Student-Loan/static/js/main.65566779.chunk.js",
-    "main.js.map": "/Youth-Finance-Student-Loan/static/js/main.65566779.chunk.js.map",
-    "runtime-main.js": "/Youth-Finance-Student-Loan/static/js/runtime-main.49fd5d4e.js",
-    "runtime-main.js.map": "/Youth-Finance-Student-Loan/static/js/runtime-main.49fd5d4e.js.map",
-    "static/css/2.11829350.chunk.css": "/Youth-Finance-Student-Loan/static/css/2.11829350.chunk.css",
-    "static/js/2.38af1c9a.chunk.js": "/Youth-Finance-Student-Loan/static/js/2.38af1c9a.chunk.js",
-    "static/js/2.38af1c9a.chunk.js.map": "/Youth-Finance-Student-Loan/static/js/2.38af1c9a.chunk.js.map",
-    "index.html": "/Youth-Finance-Student-Loan/index.html",
-    "precache-manifest.221963edc3dd5da358f28657b8db7685.js": "/Youth-Finance-Student-Loan/precache-manifest.221963edc3dd5da358f28657b8db7685.js",
-    "service-worker.js": "/Youth-Finance-Student-Loan/service-worker.js",
-    "static/css/2.11829350.chunk.css.map": "/Youth-Finance-Student-Loan/static/css/2.11829350.chunk.css.map",
-    "static/css/main.027bd7f9.chunk.css.map": "/Youth-Finance-Student-Loan/static/css/main.027bd7f9.chunk.css.map",
-    "static/js/2.38af1c9a.chunk.js.LICENSE.txt": "/Youth-Finance-Student-Loan/static/js/2.38af1c9a.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/Youth-Finance-Student-Loan/static/media/logo.5d5d9eef.svg"
+    "main.css": "/mapmycollege.tk/static/css/main.027bd7f9.chunk.css",
+    "main.js": "/mapmycollege.tk/static/js/main.a2aec3d7.chunk.js",
+    "main.js.map": "/mapmycollege.tk/static/js/main.a2aec3d7.chunk.js.map",
+    "runtime-main.js": "/mapmycollege.tk/static/js/runtime-main.8499ab01.js",
+    "runtime-main.js.map": "/mapmycollege.tk/static/js/runtime-main.8499ab01.js.map",
+    "static/css/2.11829350.chunk.css": "/mapmycollege.tk/static/css/2.11829350.chunk.css",
+    "static/js/2.e3060610.chunk.js": "/mapmycollege.tk/static/js/2.e3060610.chunk.js",
+    "static/js/2.e3060610.chunk.js.map": "/mapmycollege.tk/static/js/2.e3060610.chunk.js.map",
+    "index.html": "/mapmycollege.tk/index.html",
+    "precache-manifest.72ca8278e3a8db92c314ab55ff9e2baf.js": "/mapmycollege.tk/precache-manifest.72ca8278e3a8db92c314ab55ff9e2baf.js",
+    "service-worker.js": "/mapmycollege.tk/service-worker.js",
+    "static/css/2.11829350.chunk.css.map": "/mapmycollege.tk/static/css/2.11829350.chunk.css.map",
+    "static/css/main.027bd7f9.chunk.css.map": "/mapmycollege.tk/static/css/main.027bd7f9.chunk.css.map",
+    "static/js/2.e3060610.chunk.js.LICENSE.txt": "/mapmycollege.tk/static/js/2.e3060610.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/mapmycollege.tk/static/media/logo.5d5d9eef.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.49fd5d4e.js",
+    "static/js/runtime-main.8499ab01.js",
     "static/css/2.11829350.chunk.css",
-    "static/js/2.38af1c9a.chunk.js",
+    "static/js/2.e3060610.chunk.js",
     "static/css/main.027bd7f9.chunk.css",
-    "static/js/main.65566779.chunk.js"
+    "static/js/main.a2aec3d7.chunk.js"
   ]
 }
