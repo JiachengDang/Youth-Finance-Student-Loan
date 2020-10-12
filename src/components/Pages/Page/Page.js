@@ -35,6 +35,7 @@ class Page extends Component {
 		this.changePageHandler();
 	};
 	calculatePayTime = () => {
+		alert("running");
 		let salary = this.state.salary;
 		let interest = this.state.interest;
 		let loan = this.state.tuition;
@@ -936,7 +937,7 @@ class Page extends Component {
 										</Fade>
 										<Fade bottom>
 											<Button1
-												clicked={this.changePageHandler}
+												clicked={()=>this.changePageHandler(25)}
 											>
 												Continue
 											</Button1>
